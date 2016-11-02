@@ -231,7 +231,7 @@ bool cGame::getInput(bool theLoop)
 				}
 				break;
 
-				case SDLK_UP:
+				case SDLK_w:
 				{
 					if (theRocket.getSpritePos().x > 0)
 					{
